@@ -13,4 +13,10 @@ public class ItemController {
         return "dshdvsfh";
     }
 
+
+    @RequestMapping(value = "/item", method = RequestMethod.GET)
+    public String gettest(){
+        return "dshdvsfh";
+    }
+
 }
